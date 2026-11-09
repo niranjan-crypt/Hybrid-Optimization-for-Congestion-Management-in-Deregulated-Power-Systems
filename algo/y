@@ -1,0 +1,60 @@
+Power Flow Optimization Results
+==============================
+
+Matrix A (Power Flow Coefficients, 7x5):
+0.585700 -0.257100 -0.042800 -0.085700 -0.200000
+0.214300 0.057100 -0.157200 -0.114300 -0.000000
+0.090500 0.161900 -0.195300 -0.123800 0.066600
+0.108000 0.165100 -0.120600 -0.196800 0.044400
+0.187200 0.215800 0.073000 0.034900 -0.510900
+0.104800 0.019100 0.447600 -0.438000 -0.133400
+0.012800 -0.015800 0.127000 0.165100 -0.289100
+
+Line Power Limits:
+Line 1: 100.000000
+Line 2: 50.000000
+Line 3: 50.000000
+Line 4: 50.000000
+Line 5: 50.000000
+Line 6: 50.000000
+Line 7: 50.000000
+
+Initial Power Injections (B, 5x1):
+Bus 1: 147.000000
+Bus 2: 36.000000
+Bus 3: -31.000000
+Bus 4: -80.000000
+Bus 5: -72.000000
+
+Optimized Power Injections (B_optimized, 5x1):
+Bus 1: 145.565289
+Bus 2: 33.275059
+Bus 3: -31.719063
+Bus 4: -80.119567
+Bus 5: -67.001718
+
+Resultant Line Flows Before Optimization (C_unoptimized, 7x1):
+Line 1: 99.425100
+Line 2: 47.574900
+Line 3: 30.295000
+Line 4: 38.105400
+Line 5: 67.017000
+Line 6: 46.862400
+Line 7: 4.983000
+
+Resultant Line Flows After Optimization (C_optimized, 7x1):
+Line 1: 98.326739
+Line 2: 47.238550
+Line 3: 30.212112
+Line 4: 37.832737
+Line 5: 63.550093
+Line 6: 45.723743
+Line 7: 3.451625
+
+Minimum Required Sum of Differences (Achieved): 9.99656329
+
+Warning: 1 line constraints still violated (tolerance=1e-06)!
+  Line 5: Flow = 63.550093, Limit = 50.000000
+
+Optimization Parameters:
+Alpha (weight for minimal changes): 1.0
