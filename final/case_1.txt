@@ -1,0 +1,102 @@
+Power Flow Optimization Results
+==============================
+
+Timestamp: Fri Jun 27 22:05:05 2025
+
+--- Initial Conditions ---
+Initial B (Bus Injections):
+# Bus Injections
+219.00
+18.30
+-94.20
+-47.80
+-7.60
+-11.20
+0.00
+0.00
+-29.50
+-9.00
+-3.50
+-6.10
+-13.50
+-14.90
+# 
+# 
+Line Limits:
+# Limits
+170.00 100.00 125.00 100.00 50.00 100.00 100.00 100.00 100.00 100.00 100.00 100.00 15.00 100.00 100.00 100.00 100.00 100.00 100.00 100.00
+# 
+# 
+--- Optimized Results ---
+Final Solution Feasible: YES
+
+Optimized B (Bus Injections):
+# Optimized Injections
+94.03
+139.88
+-94.19
+-47.80
+-7.60
+-11.20
+0.00
+0.00
+-29.29
+-8.85
+-3.50
+-5.38
+-12.02
+-14.08
+# 
+# 
+Initial C (Line Flows):
+# Flows
+147.89
+71.13
+70.06
+55.22
+40.91
+24.16
+62.35
+28.98
+16.64
+42.09
+6.31
+7.54
+17.03
+-0.00
+28.99
+6.20
+9.91
+-2.80
+1.44
+4.98
+# 
+# 
+Optimized C (Line Flows):
+# Optimized Flows
+44.01
+50.16
+73.10
+61.54
+50.01
+22.29
+53.28
+27.94
+16.03
+39.40
+5.83
+6.79
+15.01
+0.00
+28.55
+5.92
+8.55
+-2.46
+1.93
+5.18
+# 
+# 
+
+--- Summary Metrics ---
+Total Generator Deviation: 246.55
+Total Load Shed: 3.39
